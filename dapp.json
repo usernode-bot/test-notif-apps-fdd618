@@ -1,3 +1,12 @@
 {
-  "secrets": []
+  "secrets": [],
+  "tests": [
+    {
+      "name": "Home page shows the footer line",
+      "path": "/",
+      "expectSelector": "#site-footer",
+      "expectText": "Built for push testing",
+      "allowConsoleErrors": true
+    }
+  ]
 }
