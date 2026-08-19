@@ -1,3 +1,6 @@
 {
-  "secrets": []
+  "secrets": [],
+  "tests": [
+    { "name": "Home shows E2E verified subtitle", "path": "/", "expectText": "E2E verified" }
+  ]
 }
