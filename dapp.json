@@ -1,6 +1,14 @@
 {
   "secrets": [],
   "tests": [
-    { "name": "Home shows E2E verified subtitle", "path": "/", "expectText": "E2E verified" }
-  ]
+    {
+      "name": "Home shows E2E verified subtitle",
+      "path": "/",
+      "expectText": "E2E verified"
+    }
+  ],
+  "visibility": {
+    "build": "public",
+    "view": "public"
+  }
 }
